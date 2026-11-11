@@ -1,0 +1,26 @@
+
+# Compiled CUDA and C++ artifacts
+*.exe
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.cubin
+*.fatbin
+*.ptx
+tmpxft_*
+
+# Visual Studio build folders
+.vs/
+
+# VS Code local workspace settings
+.vscode/
+
+# Python/Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
