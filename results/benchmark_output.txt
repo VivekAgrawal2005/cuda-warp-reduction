@@ -1,0 +1,220 @@
+
+============================================================
+RUN 1
+Started: 2026-09-28T11:38:54.842659+00:00
+Finished: 2026-09-28T11:38:56.097940+00:00
+Exit code: 0
+============================================================
+
+-----------------------------
+Input size: 32
+N=32 expected=168 shared=168 shuffle=168 PASS
+Shared avg (us): 13.4922
+Shuffle avg (us): 8.21978
+Speedup (shared/shuffle): 1.64143x
+
+-----------------------------
+Input size: 256
+N=256 expected=1396 shared=1396 shuffle=1396 PASS
+Shared avg (us): 8.95386
+Shuffle avg (us): 8.04038
+Speedup (shared/shuffle): 1.11361x
+
+-----------------------------
+Input size: 1000
+N=1000 expected=5500 shared=5500 shuffle=5500 PASS
+Shared avg (us): 9.08493
+Shuffle avg (us): 8.13222
+Speedup (shared/shuffle): 1.11715x
+
+-----------------------------
+Input size: 65536
+N=65536 expected=360436 shared=360436 shuffle=360436 PASS
+Shared avg (us): 13.6298
+Shuffle avg (us): 10.5258
+Speedup (shared/shuffle): 1.29489x
+
+-----------------------------
+Input size: 1000000
+N=1000000 expected=5500000 shared=5500000 shuffle=5500000 PASS
+Shared avg (us): 33.3384
+Shuffle avg (us): 23.3931
+Speedup (shared/shuffle): 1.42514x
+
+STDERR:
+
+============================================================
+RUN 2
+Started: 2026-09-28T11:38:58.098946+00:00
+Finished: 2026-09-28T11:38:58.598437+00:00
+Exit code: 0
+============================================================
+
+-----------------------------
+Input size: 32
+N=32 expected=168 shared=168 shuffle=168 PASS
+Shared avg (us): 10.408
+Shuffle avg (us): 9.23565
+Speedup (shared/shuffle): 1.12694x
+
+-----------------------------
+Input size: 256
+N=256 expected=1396 shared=1396 shuffle=1396 PASS
+Shared avg (us): 10.4036
+Shuffle avg (us): 9.31571
+Speedup (shared/shuffle): 1.11678x
+
+-----------------------------
+Input size: 1000
+N=1000 expected=5500 shared=5500 shuffle=5500 PASS
+Shared avg (us): 10.449
+Shuffle avg (us): 9.33395
+Speedup (shared/shuffle): 1.11946x
+
+-----------------------------
+Input size: 65536
+N=65536 expected=360436 shared=360436 shuffle=360436 PASS
+Shared avg (us): 13.8093
+Shuffle avg (us): 9.61914
+Speedup (shared/shuffle): 1.43561x
+
+-----------------------------
+Input size: 1000000
+N=1000000 expected=5500000 shared=5500000 shuffle=5500000 PASS
+Shared avg (us): 29.594
+Shuffle avg (us): 20.9838
+Speedup (shared/shuffle): 1.41032x
+
+STDERR:
+
+============================================================
+RUN 3
+Started: 2026-09-28T11:39:00.598809+00:00
+Finished: 2026-09-28T11:39:01.063924+00:00
+Exit code: 0
+============================================================
+
+-----------------------------
+Input size: 32
+N=32 expected=168 shared=168 shuffle=168 PASS
+Shared avg (us): 6.96845
+Shuffle avg (us): 6.30573
+Speedup (shared/shuffle): 1.1051x
+
+-----------------------------
+Input size: 256
+N=256 expected=1396 shared=1396 shuffle=1396 PASS
+Shared avg (us): 7.00013
+Shuffle avg (us): 6.3689
+Speedup (shared/shuffle): 1.09911x
+
+-----------------------------
+Input size: 1000
+N=1000 expected=5500 shared=5500 shuffle=5500 PASS
+Shared avg (us): 7.05395
+Shuffle avg (us): 6.42253
+Speedup (shared/shuffle): 1.09831x
+
+-----------------------------
+Input size: 65536
+N=65536 expected=360436 shared=360436 shuffle=360436 PASS
+Shared avg (us): 10.3958
+Shuffle avg (us): 8.21894
+Speedup (shared/shuffle): 1.26486x
+
+-----------------------------
+Input size: 1000000
+N=1000000 expected=5500000 shared=5500000 shuffle=5500000 PASS
+Shared avg (us): 24.3647
+Shuffle avg (us): 17.4192
+Speedup (shared/shuffle): 1.39873x
+
+STDERR:
+
+============================================================
+RUN 4
+Started: 2026-09-28T11:39:03.064374+00:00
+Finished: 2026-09-28T11:39:03.572275+00:00
+Exit code: 0
+============================================================
+
+-----------------------------
+Input size: 32
+N=32 expected=168 shared=168 shuffle=168 PASS
+Shared avg (us): 8.92102
+Shuffle avg (us): 8.01587
+Speedup (shared/shuffle): 1.11292x
+
+-----------------------------
+Input size: 256
+N=256 expected=1396 shared=1396 shuffle=1396 PASS
+Shared avg (us): 8.92109
+Shuffle avg (us): 8.08672
+Speedup (shared/shuffle): 1.10318x
+
+-----------------------------
+Input size: 1000
+N=1000 expected=5500 shared=5500 shuffle=5500 PASS
+Shared avg (us): 8.96614
+Shuffle avg (us): 8.11686
+Speedup (shared/shuffle): 1.10463x
+
+-----------------------------
+Input size: 65536
+N=65536 expected=360436 shared=360436 shuffle=360436 PASS
+Shared avg (us): 13.6274
+Shuffle avg (us): 10.5389
+Speedup (shared/shuffle): 1.29305x
+
+-----------------------------
+Input size: 1000000
+N=1000000 expected=5500000 shared=5500000 shuffle=5500000 PASS
+Shared avg (us): 33.3226
+Shuffle avg (us): 23.4031
+Speedup (shared/shuffle): 1.42385x
+
+STDERR:
+
+============================================================
+RUN 5
+Started: 2026-09-28T11:39:05.572586+00:00
+Finished: 2026-09-28T11:39:06.037303+00:00
+Exit code: 0
+============================================================
+
+-----------------------------
+Input size: 32
+N=32 expected=168 shared=168 shuffle=168 PASS
+Shared avg (us): 6.96915
+Shuffle avg (us): 6.28301
+Speedup (shared/shuffle): 1.10921x
+
+-----------------------------
+Input size: 256
+N=256 expected=1396 shared=1396 shuffle=1396 PASS
+Shared avg (us): 6.92474
+Shuffle avg (us): 6.26682
+Speedup (shared/shuffle): 1.10498x
+
+-----------------------------
+Input size: 1000
+N=1000 expected=5500 shared=5500 shuffle=5500 PASS
+Shared avg (us): 6.97146
+Shuffle avg (us): 6.36032
+Speedup (shared/shuffle): 1.09609x
+
+-----------------------------
+Input size: 65536
+N=65536 expected=360436 shared=360436 shuffle=360436 PASS
+Shared avg (us): 10.3158
+Shuffle avg (us): 8.16685
+Speedup (shared/shuffle): 1.26314x
+
+-----------------------------
+Input size: 1000000
+N=1000000 expected=5500000 shared=5500000 shuffle=5500000 PASS
+Shared avg (us): 24.4984
+Shuffle avg (us): 17.5339
+Speedup (shared/shuffle): 1.3972x
+
+STDERR:
