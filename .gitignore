@@ -11,14 +11,21 @@
 *.ptx
 tmpxft_*
 
-# Visual Studio build folders
+# Visual Studio
 .vs/
 
-# VS Code local workspace settings
+# VS Code
 .vscode/
 
-# Python/Jupyter cache
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
 
 # Operating system files

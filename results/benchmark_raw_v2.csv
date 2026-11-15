@@ -1,0 +1,13 @@
+timestamp,gpu_name,operation,input_size,algorithm,pattern,seed,correct,value,argmax_index,latency_us,repetitions,warmup,blocks,threads_per_block,samples_us,speedup_shared_over_shuffle,latency_reduction_percent
+2026-11-14T16:41:51,NVIDIA GeForce RTX 3050 Laptop GPU,sum,1000000,shared,random_signed,42,True,-1407589632.0,,50.176,5,50,1024,256,"[56.32, 48.128, 50.176, 48.128, 51.2]",1.2564,20.4082
+2026-11-14T16:41:51,NVIDIA GeForce RTX 3050 Laptop GPU,sum,1000000,shuffle,random_signed,42,True,-1407589632.0,,39.936,5,50,1024,256,"[39.936, 38.912, 40.96, 38.912, 39.936]",1.2564,20.4082
+2026-11-14T16:42:24,NVIDIA GeForce RTX 3050 Laptop GPU,max,1000000,shared,random_signed,42,True,10000.0,,50.176,5,50,1024,256,"[90.112, 50.176, 49.152, 50.176, 50.176]",1.2564,20.4082
+2026-11-14T16:42:24,NVIDIA GeForce RTX 3050 Laptop GPU,max,1000000,shuffle,random_signed,42,True,10000.0,,39.936,5,50,1024,256,"[40.96, 39.936, 39.936, 38.912, 40.96]",1.2564,20.4082
+2026-11-14T16:42:29,NVIDIA GeForce RTX 3050 Laptop GPU,max,1000000,shared,random_signed,42,True,10000.0,,51.2,5,50,1024,256,"[78.848, 49.152, 51.2, 49.152, 51.2]",1.2821,22.0
+2026-11-14T16:42:29,NVIDIA GeForce RTX 3050 Laptop GPU,max,1000000,shuffle,random_signed,42,True,10000.0,,39.936,5,50,1024,256,"[40.96, 38.912, 40.96, 37.888, 39.936]",1.2821,22.0
+2026-11-14T16:42:30,NVIDIA GeForce RTX 3050 Laptop GPU,max,1000000,shared,random_signed,42,True,10000.0,,49.152,5,50,1024,256,"[50.176, 50.176, 49.152, 49.152, 49.152]",1.2308,18.75
+2026-11-14T16:42:30,NVIDIA GeForce RTX 3050 Laptop GPU,max,1000000,shuffle,random_signed,42,True,10000.0,,39.936,5,50,1024,256,"[40.96, 38.912, 41.856, 39.936, 39.936]",1.2308,18.75
+2026-11-14T16:42:55,NVIDIA GeForce RTX 3050 Laptop GPU,argmax,1000000,shared,random_signed,42,True,10000.0,61045,67.584,5,50,1024,256,"[69.632, 67.584, 67.584, 66.56, 66.56]",0.9706,-3.0303
+2026-11-14T16:42:55,NVIDIA GeForce RTX 3050 Laptop GPU,argmax,1000000,shuffle,random_signed,42,True,10000.0,61045,69.632,5,50,1024,256,"[69.632, 66.56, 65.536, 71.68, 70.656]",0.9706,-3.0303
+2026-11-14T16:44:28,NVIDIA GeForce RTX 3050 Laptop GPU,sum,65536,shared,random_signed,42,True,-94243232.0,,47.616,10,50,256,256,"[51.2, 51.2, 47.104, 47.104, 47.104, 50.176, 47.104, 46.08, 48.128, 58.368]",0.9688,-3.2258
+2026-11-14T16:44:28,NVIDIA GeForce RTX 3050 Laptop GPU,sum,65536,shuffle,random_signed,42,True,-94243232.0,,49.152,10,50,256,256,"[62.464, 49.152, 49.152, 49.152, 46.08, 50.176, 50.176, 47.104, 46.08, 46.08]",0.9688,-3.2258
